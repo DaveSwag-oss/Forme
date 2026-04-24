@@ -1,16 +1,31 @@
-# React + Vite
+by Dave
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description
+A minimalist online store for premium furniture based in Switzerland. Built with React, the platform focuses on a clean aesthetic and a streamlined user experience.
 
-Currently, two official plugins are available:
+Tech Stack
+React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+CSS Modules
 
-## React Compiler
+NPM
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Installation & Usage
+Clone the repository:
+git clone [repository_url]
 
-## Expanding the ESLint configuration
+Install dependencies:
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Start the development server:
+npm run dev
+
+Project Scripts
+npm run dev - Starts the development environment.
+
+npm run build - Compiles the application for production.
+
+npm run preview - Previews the production build locally.
+
+Troubleshooting
+If you encounter an ENOENT error when running commands, ensure your terminal is pointed to the directory containing the package.json file using cd.
