@@ -1,6 +1,7 @@
 by Dave
 
 Description
+
 A minimalist online store for premium furniture based in Switzerland. Built with React, the platform focuses on a clean aesthetic and a streamlined user experience.
 
 Tech Stack
